@@ -1,0 +1,47 @@
+{
+  "name": "tradcast-celo-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for interacting with the Tradcast contracts on Celo.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "celo",
+    "blockchain",
+    "web3",
+    "sdk",
+    "smart-contract",
+    "solidity",
+    "evm",
+    "dapp",
+    "defi",
+    "ethers",
+    "typescript",
+    "react",
+    "minipay",
+    "celo-blockchain",
+    "crypto",
+    "wagmi",
+    "viem",
+    "tradcast"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
