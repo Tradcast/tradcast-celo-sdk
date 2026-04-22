@@ -32,5 +32,4 @@ npm run build
 ```
 
 ## License
-
 MIT
